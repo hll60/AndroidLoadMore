@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="load_more_loading">加载中...</string>
+    <string name="load_more_load_finished_empty_data">暂无数据</string>
+    <string name="load_more_load_finished_no_more">没有更多数据了</string>
+    <string name="load_more_load_failed">加载失败</string>
+    <string name="load_more_click_to_load_more">点击加载</string>
+</resources>
