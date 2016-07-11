@@ -16,9 +16,6 @@ public abstract class LoadMoreContainerBase extends LinearLayout implements Load
     private boolean mLoading = false;
     private boolean mHasMore = false;
 
-
-    private boolean mShowLoadingForFirstPage = false;
-
     private boolean mEmptyData = true;
 
     private AbsListView mAbsListView;   // content view
@@ -34,10 +31,6 @@ public abstract class LoadMoreContainerBase extends LinearLayout implements Load
 
     public LoadMoreContainerBase(Context context, AttributeSet attrs) {
         super(context, attrs);
-    }
-
-    public LoadMoreContainerBase(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
     }
 
     public void useLoadMoreDefaultView(){
@@ -176,11 +169,6 @@ public abstract class LoadMoreContainerBase extends LinearLayout implements Load
                 performLoadMore();
             }
         });
-    }
-
-    @Override
-    public void setShowLoadingForFirstPage(boolean showLoading) {
-        mShowLoadingForFirstPage = showLoading;
     }
 
     protected abstract void addLoadMoreView(View view);

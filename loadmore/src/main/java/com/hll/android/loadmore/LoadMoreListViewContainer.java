@@ -21,10 +21,6 @@ public class LoadMoreListViewContainer extends LoadMoreContainerBase {
         super(context, attrs);
     }
 
-    public LoadMoreListViewContainer(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-    }
-
     @Override
     protected void addLoadMoreView(View view) {
         mListView.addFooterView(view);

@@ -34,5 +34,4 @@ public interface LoadMoreContainer {
 
     public void setLoadMoreView(View view);
 
-    public void setShowLoadingForFirstPage(boolean showLoading);
 }
