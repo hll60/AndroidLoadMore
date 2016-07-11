@@ -6,15 +6,13 @@ Android 列表组件上拉加载功能
 
 # 功能点：
 
-1、第一次进入页面时自动加载
+1、滑动到底部时自动加载
 
-2、滑动到底部时自动加载
+2、可以设置不自动加载，手动点击【加载更多】
 
-3、可以设置不自动加载，手动点击【加载更多】
+3、可以使用默认的LoadMoreDefaultView
 
-4、可以使用默认的LoadMoreDefaultView
-
-5、提供LoadMoreHandler和LoadMoreUIHandler接口进行扩展
+4、提供LoadMoreHandler和LoadMoreUIHandler接口进行扩展
 
 ##目前仅实现了ListView的上拉加载功能
 
@@ -30,7 +28,7 @@ Android 列表组件上拉加载功能
 添加依赖  
 
     dependencies {
-	        compile 'com.github.huangliulin:AndroidLoadMore:1.0'
+	        compile 'com.github.huangliulin:AndroidLoadMore:1.1'
 	  }
 
 ## 步骤 2
